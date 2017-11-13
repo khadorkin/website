@@ -82,20 +82,6 @@ const CoverText = styled.div`
   }
 `
 
-const CoverLink = styled.a`
-  font-weight: 700;
-  font-size: 14px;
-  color: #fff;
-  text-transform: uppercase;
-  margin-top: 10px;
-  display: block;
-  text-align: center;
-
-  &:hover {
-    text-decoration: underline;
-  }
-`
-
 const HomeCover = () => (
   <Cover>
     <HomeBubbles />
