@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import theme from 'style/theme'
 import { clUrl } from 'modules/cloudinary'
-import { BaseLinkButton } from 'modules/components/Button'
 import HomeSectionTitle from './HomeSectionTitle'
 import HomeContainer from './HomeContainer'
 
@@ -61,19 +60,25 @@ const HomePrivate = () => (
         <HomeSectionTitle dark>Formation sur mesure</HomeSectionTitle>
         <Lead>
           <p>
-            Vous désirez vous former sur autre technologie&nbsp;?<br />Le format
-            session ne vous convient pas&nbsp;?
+            Nous proposons des formations privées sur React Native, Webpack,
+            Node.js ou RxJS.
           </p>
           <p>
-            <strong>La formation JavaScript est notre spécialité&nbsp;!</strong>
-            <br />
-            Nous formons sur React Native, Webpack, Node.js, RxJS et même
-            Git&nbsp;!
+            Premier projet sur React ? Nous réalisons des audits technique de
+            votre Stack.
+          </p>
+          <p>
+            Ces idées vous intéressent ?
+            <a
+              href="mailto:contact@smooth-code.com"
+              style={{ color: theme.colors.primary }}
+            >
+              {' '}
+              Contactez-nous{' '}
+            </a>
+            pour trouvez la formule la plus adaptée à votre situation.
           </p>
         </Lead>
-        <BaseLinkButton href="mailto:contact@smooth-code.com">
-          Demander un devis
-        </BaseLinkButton>
       </Text>
     </Wrapper>
   </Container>
